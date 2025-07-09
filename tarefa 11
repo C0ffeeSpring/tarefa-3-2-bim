@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro nota1
+		inteiro nota2
+
+	     escreva (" fale sua 1 nota: ")
+	     leia (nota1)
+	     
+	     escreva (" fale sua 2 nota: ")
+	     leia (nota2)
+
+	     inteiro media = (nota1 + nota2) / 2
+
+	     se (media >= 60){
+	        escreva (" Você passou de alguma forma milagrosa")}
+
+	        
+	     se (media < 60){
+	        escreva (" Não foi dessa vez, ano que vem tem mais")}
+
+
+	     se (media == 100){
+	        escreva (" Passou com orgulho")}
+	}
+}
