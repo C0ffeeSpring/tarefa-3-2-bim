@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+    real km
+    inteiro dias
+    real valor_total
+ 
+   escreva("Digite a quantidade de km percorridos: ")
+   leia(km)
+   
+   escreva("Digite a quantidade de dias de aluguel: ")
+   leia(dias)
+   
+   valor_total = (dias * 60) + (km * 0.15)
+   
+   escreva("O valor total a pagar é R$ ", valor_total)
+
+	}
+}
