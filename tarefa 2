@@ -1,0 +1,41 @@
+programa
+{
+	inclua biblioteca Matematica --> u
+	
+	funcao inicio()
+	{
+		
+
+    real a
+    real b
+    real c
+    real delta
+    real x1 = 0
+    real x2 = 0
+
+    
+   escreva("Digite o valor de a: ")
+   leia(a)
+   escreva("Digite o valor de b: ")
+   leia(b)
+   escreva("Digite o valor de c: ")
+   leia(c)
+
+   escreva("Valores informados: a = ", a, " | b = ", b, " | c = ", c)
+
+   delta = b*b - 4*a*c
+   escreva("O valor de delta é: ", delta)
+
+   se (delta < 0) {
+      escreva("A equação não possui raízes reais.")}
+   senao{
+      x1 = (-b + u.raiz (delta, 2)) / (2 * a)
+      x2 = (-b - u.raiz (delta , 2)) / (2 * a)
+      }
+
+      escreva("x1 = ", x1)
+      escreva("x2 = ", x2)
+  
+
+	}
+}
